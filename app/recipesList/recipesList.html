@@ -1,0 +1,8 @@
+<div class="recipes">
+  <div class="recipe" ng-repeat="recipe in recipesList.list| filter: search" ui-sref="recipesParent.recipeDetails({id: recipe.id})" style="background-image: url(/assets/img/{{recipe.img}})">
+    <div class="recipe__details">
+      <h1 class="recipe__title">{{recipe.name}}</h1>
+      <p class="recipe__desc">{{recipe.desc}}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,109 @@
+[{
+	"id": "1",
+	"name": "Quiche",
+	"desc": "More glamorous",
+	"img": "quiche.jpeg",
+	"ingredients": [
+		{
+      "quantity": "500g",
+      "name": "Plain Flour"
+  	},
+		{
+      "quantity": "275ml",
+      "name": "Tepid Water"
+  	},
+		{
+      "quantity": "7g",
+      "name": "Dry Yeast"
+  	},
+		{
+      "quantity": "1 Tbsp",
+      "name": "Olive Oil"
+  	},
+		{
+      "quantity": "2 Tbsp",
+      "name": "italian Herb Mix"
+  	},
+		{
+      "quantity": "200g",
+      "name": "Grated Cheddar"
+  	},
+		{
+      "quantity": "350",
+      "name": "Chopped/Peeled tomatoes"
+  	}
+	]
+}, {
+	"id": "2",
+	"name": "Frensh style fish stew",
+	"desc": "Fragrant and hard to resist",
+	"img": "fish-stew.jpeg",
+	"ingredients": [
+		{
+      "quantity": "500g",
+      "name": "Plain Flour"
+  	},
+		{
+      "quantity": "275ml",
+      "name": "Tepid Water"
+  	},
+		{
+      "quantity": "7g",
+      "name": "Dry Yeast"
+  	},
+		{
+      "quantity": "1 Tbsp",
+      "name": "Olive Oil"
+  	},
+		{
+      "quantity": "2 Tbsp",
+      "name": "italian Herb Mix"
+  	},
+		{
+      "quantity": "150g",
+      "name": "Cherry Tomato"
+  	},
+		{
+      "quantity": "50g",
+      "name": "Fresh Basil"
+  	}
+	]
+}, {
+	"id": "3",
+	"name": "French Onion Soup",
+	"desc": "Creamy and spicy",
+	"img": "french-onion-soup.jpeg",
+	"ingredients": [
+		{
+      "quantity": "1 tablespoon",
+      "name": "balsamic vinegar"
+  	},
+		{
+      "quantity": "120g",
+      "name": "grated gruyere cheese"
+  	},
+		{
+      "quantity": "4 thick slices",
+      "name": "sourdough"
+  	}
+	]
+}, {
+	"id": "4",
+	"name": "Duck confit with creamy butterbean puree",
+	"desc": "Gourmet dishes",
+	"img": "duck-confit.jpeg",
+	"ingredients": [
+		{
+      "quantity": "500g",
+      "name": "flour"
+  	},
+		{
+      "quantity": "150g",
+      "name": "pepperoni"
+  	},
+		{
+      "quantity": "200g",
+      "name": "grated cheddar"
+  	}
+	]
+}]

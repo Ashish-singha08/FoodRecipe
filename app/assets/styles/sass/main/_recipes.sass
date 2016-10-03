@@ -1,0 +1,134 @@
+.recipes__search
+	width: 100%
+	height: 66px
+	font-family: 'Open Sans', sansserif
+	font-weight: 400
+	font-size: 2rem
+	text-align: center
+	background-color: #f4f4f4
+	box-shadow: 0px 2px 2px -1px rgba(0,0,0,0.6)
+	transition: background-color 200ms ease-in-out, opacity 200ms ease-in-out
+	z-index: 1
+
+	@media all and (max-width: 767px)
+		font-size: 1.6rem
+	&:focus
+		outline: none
+		background-color: #fff
+
+.banner
+	background: url('/assets/img/logo.jpg')
+	background-position: center
+	background-size: cover
+	display: block
+	height: 350px
+	transition: height 100ms ease-in-out
+	box-shadow: 0px 2px 2px -1px rgba(0,0,0,0.3)
+
+	@media all and (max-width: 1024px)
+		height: 250px
+
+	@media all and (max-width: 768px)
+		height: 200px
+
+	@media all and (max-width: 480px)
+		height: 180px
+
+.recipes
+	width: 96%
+	max-width: 1460px
+	display: flex
+	margin: 20px auto 0
+	flex-direction: row
+	flex-wrap: wrap
+	align-content: flex-start
+
+	.recipe
+		position: relative
+		flex: 1
+		flex-basis: 18%
+		margin-left: 1%
+		margin-right: 1%
+		height: 350px
+		margin-bottom: 15px
+		cursor: pointer
+		overflow: hidden
+		background-repeat: no-repeat
+		background-position: center
+		background-size: cover
+		transform: scale(1)
+		box-shadow: 0px 0px 3px 0px rgba(0,0,0,0)
+		transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out
+
+		@media all and (min-width: 1366px)
+			max-width: 31%
+		@media all and (max-width: 1366px)
+			flex-basis: 23%
+		@media all and (max-width: 1080px)
+			flex-basis: 31%
+		@media all and (max-width: 768px)
+			flex-basis: 48%
+			height: 180px
+		@media all and (max-width: 480px)
+			flex-basis: 98%
+
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			width: 100%
+			height: 100%
+			background: linear-gradient(to bottom, rgba(61,61,61,0) 0%,rgba(0,0,0,0.65) 100%)
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003d3d3d', endColorstr='#a6000000',GradientType=0 )
+
+	.recipe__details
+		position: absolute
+		width: 100%
+		bottom: 0
+		font-family: 'Open Sans', sansserif
+		color: white
+		text-align: center
+
+
+
+		.recipe__name
+			height: 60px
+			line-height: 60px
+			font-weight: 400
+			font-size: 3rem
+
+		.recipe__desc
+			height: 60px
+			padding: 0 8px
+			font-weight: 00
+			font-size: 1rem
+
+// Animations
+
+.recipe.ng-enter
+	transition: all 150ms linear 310ms
+	opacity: 0
+
+.recipe.ng-enter.ng-enter-active
+	opacity: 1
+
+.recipe.ng-leave
+	transition: all 300ms linear
+	opacity: 1
+
+.recipe.ng-leave.ng-leave-active
+	opacity: 0
+
+.recipes.ng-enter
+	transition: all 150ms linear 310ms
+	opacity: 0
+
+.recipes.ng-enter.ng-enter-active
+	opacity: 1
+
+.recipes.ng-leave
+	transition: all 300ms linear
+	opacity: 1
+
+.recipes.ng-leave.ng-leave-active
+	opacity: 0
